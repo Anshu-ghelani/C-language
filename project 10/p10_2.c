@@ -11,7 +11,7 @@ main()
 	if(p!=NULL)
 	{
 		printf("opened successfully.");
-		fprintf("the value of a is : %d",a);
+		fprintf(p,"the value of a is : %d",a);
 	}
 	else
 	{
